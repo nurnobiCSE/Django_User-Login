@@ -1,0 +1,7 @@
+{% autoescape off %}
+Welcome To Login board
+Hello {{name}} 1
+please Confirm your mail by following this link
+Verification Link : http://{{domain}}{% url 'activate' uidb64=uid token=token%}
+
+{% endautoescape %}
